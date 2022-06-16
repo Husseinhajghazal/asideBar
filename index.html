@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="normalize.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+
+<body>
+  <div class="container-fluid d-flex align-items-center">
+    <div class="nav d-flex">
+      <div class="image">
+        <img src="images/logo.svg" alt="logo" class="logo">
+      </div>
+      <div class="background"></div>
+      <div class="links d-flex justify-content-between">
+        <div class="aside">
+          <img src="images/icon-menu.svg" alt="bars" class="bars">
+          <img src="images/icon-close-menu.svg" alt="close" class="close d-none">
+        </div>
+        <div class="left">
+          <a href="#">Features <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow"><img
+              src="images/icon-arrow-up.svg" alt="arrow" class="arrow d-none">
+            <ul class="d-none">
+              <li><img src="images/icon-todo.svg" alt="todo">Todo list</li>
+              <li><img src="images/icon-calendar.svg" alt="calender">Calender</li>
+              <li><img src="images/icon-reminders.svg" alt="Reminders">Reminders</li>
+              <li><img src="images/icon-planning.svg" alt="Planning">Planning</li>
+            </ul>
+          </a>
+          <a href="#">Company <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow"><img
+              src="images/icon-arrow-up.svg" alt="arrow" class="arrow d-none">
+            <ul class="d-none list-2">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </a>
+          <a href="#">Careers</a>
+          <a href="#">About</a>
+        </div>
+        <div class="right">
+          <button class="login">Login</button>
+          <button class="register rounded-4">Register</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="images">
+      <img src="images/image-hero-mobile.png" alt="image" class="img-fluid">
+    </div>
+    <div class="row home">
+      <div class="col-md-6 col-sm-12 text text-center text-md-start">
+        <h1>Make <br>remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.</p>
+        <button class="rounded-4">Learn more</button>
+        <div class="footer">
+          <img src="images/client-audiophile.svg" alt="" class="img-fluid me-4">
+          <img src="images/client-databiz.svg" alt="" class="img-fluid me-4">
+          <img src="images/client-maker.svg" alt="" class="img-fluid me-4">
+          <img src="images/client-meet.svg" alt="" class="img-fluid me-4">
+        </div>
+      </div>
+      <div class="col-md-6 image text-end">
+        <img src="images/image-hero-desktop.png" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
